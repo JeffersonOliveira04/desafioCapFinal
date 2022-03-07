@@ -40,7 +40,7 @@ public class SegundaQuestao {
 
 	}
 
-	public static void somaVetores(int elementos[]) {
+	public static int somaVetores(int elementos[]) {
 		int cont1, cont2, soma, resultadoSoma, numeroSomas = 0;
 
 		System.out.println("Digite um número que se deseja ver como resultado da soma de dois vetores: ");
@@ -57,6 +57,7 @@ public class SegundaQuestao {
 			}
 		}
 		System.out.println("Número de somas com o valor " + resultadoSoma + " é " + numeroSomas);
+		return numeroSomas;
 	}
 
 }
